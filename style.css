@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffad23;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.box {
+    height: 25em;
+    width: 35em;
+    background-color: #121418;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes content to top and button to bottom */
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnBox {
+    height: 5em;
+    width: 35em;
+    background-color: #121418;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+button {
+    height: 3em;
+    width: 15em;
+    background-color: #ffad23;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+    font-size: 20px;
+
+
+}
+
+
+
+
